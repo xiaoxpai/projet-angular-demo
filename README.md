@@ -48,5 +48,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
       - home 租房页面（包含链接跳转）
       - detail 租房详情页
       - housing-location 房屋租赁位置页面
-      - 
+
       ![](assert\angular-p1.gif)
