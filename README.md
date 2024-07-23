@@ -49,4 +49,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
       - detail 租房详情页
       - housing-location 房屋租赁位置页面
 
-      ![](assert\angular-p1.gif)
+![](assert\angular-p1.gif)
