@@ -34,16 +34,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ---
 
-更新日志：
+# 更新日志：
 
-2024年7月22日 
+## 2024年7月22日 
     - 工程构建
     - 完成了开发
       - register 小demo
       - login 小demo
     
 
-2024年7月23日
+## 2024年7月23日
     - 完成了开发
       - home 租房页面（包含链接跳转）
       - detail 租房详情页
