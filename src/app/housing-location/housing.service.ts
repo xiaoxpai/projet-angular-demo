@@ -10,6 +10,7 @@ export class HousingService {
   readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
 
   public housingLocationList: Housinglocation[] = [
+    
     {
       id: 0,
       name: 'Acme Fresh Start Housing',
@@ -112,22 +113,33 @@ export class HousingService {
     },
   ];
 
+  // url = 'http://localhost:3000/locations';
+
+ 
 
 
-
-
+  // async getAllHousingLocations(): Promise<Housinglocation[]> {
+  //   const data = await fetch(this.url);
+  //   return (await data.json()) ?? [];
+  // }
   getAllHousingLocations(): Housinglocation[] {
     return this.housingLocationList;
   }
-
   getHousingLocationById(id: number): Housinglocation | undefined {
     return this.housingLocationList.find((housingLocation) => housingLocation.id === id);
   }
+  // async getHousingLocationById(id: number): Promise<Housinglocation | undefined> {
+  
+  //   const data = await fetch(`${this.url}/${id}`);
+    
+  //   return (await data.json()) ?? {};
+ 
 
   submitApplication(firstName: string, lastName: string, email: string) {
     console.log(
       `Homes application received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`,
     );
   }
+
 
 }
