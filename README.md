@@ -50,3 +50,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
       - housing-location 房屋租赁位置页面
 
 ![](assert\angular-p1.gif)
+
+
+## 2024年7月24日
+  - 完成了开发
+    - detail 支持响应式表单
+    - home 支持搜索
