@@ -9,7 +9,7 @@ export class HousingService {
 
   readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
 
-  protected housingLocationList: Housinglocation[] = [
+  public housingLocationList: Housinglocation[] = [
     {
       id: 0,
       name: 'Acme Fresh Start Housing',
